@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: vts
+  labels:
+    env: Release
+    project: vts-project

@@ -1,0 +1,14 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: domain-tls
+  namespace: vts
+spec:
+  issuerRef:
+    name: vts-issuer
+    kind: Issuer
+    group: cert-manager.io
+  dnsNames:
+    - ${DOMAIN}
+    - www.${DOMAIN}
+  secretName: domain-tls

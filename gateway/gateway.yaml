@@ -7,7 +7,7 @@ spec:
   gatewayClassName: traefik
   listeners:
     - name: http
-      port: 80
+      port: 8000
       protocol: HTTP
       allowedRoutes:
         namespaces:
@@ -15,7 +15,7 @@ spec:
 
     - name: https
       hostname: ${DOMAIN}
-      port: 443
+      port: 8443
       protocol: HTTPS
       allowedRoutes:
         namespaces:
@@ -28,7 +28,7 @@ spec:
     
     - name: https-www
       hostname: www.${DOMAIN}
-      port: 443
+      port: 8443
       protocol: HTTPS
       allowedRoutes:
         namespaces:

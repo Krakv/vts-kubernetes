@@ -14,7 +14,7 @@ spec:
           from: Same
 
     - name: https
-      hostname: ${DOMAIN}
+      hostname: vts-platform.ru
       port: 8443
       protocol: HTTPS
       allowedRoutes:
@@ -27,7 +27,7 @@ spec:
             kind: Secret
     
     - name: https-www
-      hostname: www.${DOMAIN}
+      hostname: www.vts-platform.ru
       port: 8443
       protocol: HTTPS
       allowedRoutes:

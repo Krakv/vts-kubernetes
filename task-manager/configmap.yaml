@@ -4,5 +4,5 @@ metadata:
   name: vts-backend-config
   namespace: vts
 data:
-  ASPNETCORE_ENVIRONMENT: "Development"
+  ASPNETCORE_ENVIRONMENT: "Release"
   ASPNETCORE_HTTP_PORTS: "8080"

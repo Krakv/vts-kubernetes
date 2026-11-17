@@ -9,6 +9,6 @@ spec:
     kind: Issuer
     group: cert-manager.io
   dnsNames:
-    - ${DOMAIN}
-    - www.${DOMAIN}
+    - vts-platform.ru
+    - www.vts-platform.ru
   secretName: domain-tls

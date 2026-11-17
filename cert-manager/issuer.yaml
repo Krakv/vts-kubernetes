@@ -5,7 +5,6 @@ metadata:
   namespace: vts
 spec:
   acme:
-    email: ${DOMAIN_EMAIL}
     server: https://acme-v02.api.letsencrypt.org/directory
     privateKeySecretRef:
       name: letsencrypt-account-key

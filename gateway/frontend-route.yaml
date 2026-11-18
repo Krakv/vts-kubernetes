@@ -7,8 +7,8 @@ spec:
   parentRefs:
     - name: gateway
   hostnames:
-    - ${DOMAIN}
-    - www.${DOMAIN}
+    - vts-platform.ru
+    - www.vts-platform.ru
   rules:
     - matches:
         - path:

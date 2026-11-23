@@ -11,6 +11,6 @@ spec:
     matchLabels:
       service: task-manager-service
   endpoints:
-    - port: metrics
+    - port: http
       path: /metrics
       interval: 15s

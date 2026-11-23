@@ -9,7 +9,7 @@ spec:
       - vts
   selector:
     matchLabels:
-      app: task-manager
+      service: task-manager-service
   endpoints:
     - port: metrics
       path: /metrics

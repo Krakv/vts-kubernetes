@@ -4,6 +4,7 @@ metadata:
   name: task-manager # TODO -service
   namespace: vts
   labels:
+    app: task-manager
     project: vts-project
 spec:
   type: ClusterIP
